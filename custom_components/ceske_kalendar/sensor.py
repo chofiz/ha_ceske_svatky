@@ -44,4 +44,4 @@ class CeskeSvatkySensor(SensorEntity):
             _LOGGER.info("Data z API úspěšně načtena: %s", self._state)
         except Exception as e:
             _LOGGER.error("Chyba při aktualizaci svátků: %s", e)
-            self._state = "Chyba API"
+
